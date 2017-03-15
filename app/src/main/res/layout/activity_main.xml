@@ -54,7 +54,7 @@
                 android:layout_height="150dp"
                 android:layout_weight="1"
                 android:background="@drawable/button3"
-                android:text="guzik3"
+                android:text="Guzik3"
                 tools:layout_editor_absoluteX="193dp"
                 tools:layout_editor_absoluteY="16dp" />
 
