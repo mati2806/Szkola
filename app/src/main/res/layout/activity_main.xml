@@ -7,57 +7,66 @@
     tools:context="com.test.uczen.myapplication.MainActivity">
 
     <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="495dp"
-        android:orientation="vertical"
+        android:layout_width="397dp"
+        android:layout_height="484dp"
+        android:orientation="horizontal"
         tools:layout_editor_absoluteY="8dp"
-        tools:layout_editor_absoluteX="8dp">
+        tools:layout_editor_absoluteX="-5dp"
+        android:weightSum="1">
 
         <Button
-            android:id="@+id/button1"
-            android:layout_width="match_parent"
-            android:layout_height="320dp"
-            android:background="@drawable/button1"
-            android:text="guzik1"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="16dp" />
+            android:id="@+id/button4"
+            android:layout_width="170dp"
+            android:layout_height="192dp"
+            android:background="@drawable/button4"
+            android:text="guzik4"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="372dp" />
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+            android:layout_weight="0.92"
+            android:orientation="vertical">
 
             <Button
-                android:id="@+id/button4"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:id="@+id/button1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_weight="1"
-                android:background="@drawable/button4"
-                android:text="guzik4"
-                tools:layout_editor_absoluteX="184dp"
-                tools:layout_editor_absoluteY="241dp" />
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:layout_weight="1"
-                android:background="@drawable/button2"
-                android:text="guzik2"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="332dp" />
+                android:background="@drawable/button1"
+                android:text="guzik1"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="50dp" />
 
             <Button
                 android:id="@+id/button3"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_weight="1"
                 android:background="@drawable/button3"
                 android:text="Guzik3"
-                tools:layout_editor_absoluteX="193dp"
-                tools:layout_editor_absoluteY="16dp" />
+                tools:layout_editor_absoluteX="148dp"
+                tools:layout_editor_absoluteY="361dp" />
 
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="Mowa"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="146dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="@drawable/button2"
+                android:text="guzik2"
+                tools:layout_editor_absoluteX="-447dp"
+                tools:layout_editor_absoluteY="233dp" />
         </LinearLayout>
 
     </LinearLayout>

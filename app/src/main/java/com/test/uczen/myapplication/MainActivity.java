@@ -16,7 +16,7 @@ import java.io.File;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button b1, b2, b3, b4;
+    Button b1, b2, b3, b4, b5;
     final static private int CAPTURE_IMAGE = 1;
 
 
@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         b2 = (Button) findViewById(R.id.button2);
         b3 = (Button) findViewById(R.id.button3);
         b4 = (Button) findViewById(R.id.button4);
+        b5 = (Button) findViewById(R.id.button5);
 
 
         b1.setOnClickListener(new View.OnClickListener() {
@@ -82,6 +83,18 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(), scena4.class);
+                startActivity(i);
+
+            }
+
+
+        });
+
+        b5.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), scena5.class);
                 startActivity(i);
 
             }

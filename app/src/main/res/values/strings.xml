@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">My Application</string>
+
+<string name="app_name">Moja aplikacja</string>
+<string name="action_settings">Ustawienia</string>
+<string name="hello_world">Witaj swiecie!</string>
+<string name="speech_prompt">Powiedz cos!&#8230;</string>
+<string name="speech_not_supported">Sorry! Twoje urzadzenie nie wspiera rozpoznawania mowy</string>
+<string name="tap_on_mic">Kliknij, aby powiedziec</string>
 </resources>
